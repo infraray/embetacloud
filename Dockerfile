@@ -13,3 +13,5 @@ COPY . /app
 
 # Make port 3000 available for publish
 EXPOSE 8080
+
+CMD node /app/server/server.js
